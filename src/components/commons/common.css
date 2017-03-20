@@ -1,0 +1,42 @@
+h1,h2,h3,h4 {
+	display: inline-block;
+}
+.header {
+	height: auto;
+	background: #C82E0D;
+	color: #ffffff;
+}
+.nav {
+	margin-top: 20px;
+}
+.navItem {
+	font-size: 1.25em;
+}
+
+.navItem:hover {
+	background-color: #C82E0D !important;
+}
+
+:global .ant-menu-item-selected  {
+	background-color: #C82E0D !important;
+}
+:global .ant-layout-sider {
+	background-color: #fff;
+};
+
+@media (max-width:879px) {
+	:global .ant-layout-sider {
+		display: none;
+	}
+}
+
+.footer {
+	position: relative;
+	background-color: #333;
+	border-top:8px solid #d56464;
+}
+
+.notification {
+	margin-left: 40px;
+	line-height: 40px;
+}
